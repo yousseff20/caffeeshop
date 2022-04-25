@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo"><img src="logo.png" alt="logo.png"></a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">menu</a>
+                <a href="#gallery">gallery</a>
+                <a href="#contact">contact</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+    <div class="home-bg">
+        <section class="home" id="home">
+            <div class="contact">
+                <h1>coffee heaven</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia, accusantium mollitia laudantium
+                    dolorum dolore.</p>
+                <a href="#about" class="btn">about us</a>
+            </div>
+        </section>
+    </div>
+    <section class="about" id="about">
+        <div class="image">
+            <img src="1.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>A cup of coffee can complete your day</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit sunt repellendus, dolorum
+                recusandae placeat quae. Iste eaque aspernatur, animi deleniti voluptas, sunt molestias eveniet sint
+                consectetur facere a ex.</p>
+            <a href="#menu" class="btn">our menu</a>
+        </div>
+    </section>
+    <section class="facility">
+        <div class="heading">
+            <img src="12.png" alt="">
+            <h3>our facility</h3>
+        </div>
+        <div class="box-container">
+            <div class="box"> 
+                <img src="icon-1.png" alt="">
+                <h3>varieties of coffees</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+            </div>
+            <div class="box">
+                <img src="icon-2.png" alt="">
+                <h3>coffee beans</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+            </div>
+            <div class="box">
+                <img src="icon-3.png" alt="">
+                <h3>breakfast and sweets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+            </div>
+            <div class="box">
+                <img src="icon-4.png" alt="">
+                <h3>read to go coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+
+        <div class="heading">
+            <img src="12.png" alt="">
+            <h3>popular menu</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="menu-1.png" alt="">
+                <h3>love you coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="menu-2.png" alt="">
+                <h3>Cappuccino</h3>
+            </div>
+
+            <div class="box">
+                <img src="menu-3.png" alt="">
+                <h3>Mocha coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="menu-4.png" alt="">
+                <h3>Frappuccino</h3>
+            </div>
+
+            <div class="box">
+                <img src="menu-5.png" alt="">
+                <h3>black coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="menu-6.png" alt="">
+                <h3>love heart coffee</h3>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <img src="12.png" alt="">
+            <h3>our gallery</h3>
+        </div>
+
+        <div class="box-container">
+            <img src="a.jpg" alt="">
+            <img src="b.jpg" alt="">
+            <img src="c.jpg" alt="">
+            <img src="d.jpg" alt="">
+            <img src="e.jpg" alt="">
+            <img src="f.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="heading">
+            <img src="12.png" alt="">
+            <h3>contact us</h3>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="120.jpg" alt="">
+            </div>
+            <form action="" method="post">
+                <h3>book a table</h3>
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number"
+                    min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+                <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests"
+                    min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+                <input type="submit" name="send" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>our email</h3>
+                <p>ed56d@yahoo.com</p>
+                <p>ed56yy@gmail.com/p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>07:00am to 09:00pm</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>shop location</h3>
+                <p>Egypt,Sohag- 400104</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>our number</h3>
+                <p>+201097380883</p>
+                <p>+201004059305</p>
+            </div>
+
+        </div>
+
+        <div class="credit"> &copy; copyright @ 2022 by <span>Youssef Ashraf</span> | all rights reserved! </div>
+
+    </section>
+
+</body>
+
+</html>
